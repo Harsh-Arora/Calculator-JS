@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js.js"></script>
+
+</head>
+<body>
+
+	<div class="main">
+
+		<h1>THE CALCULATOR</h1>
+		<br>
+		<br>
+
+		<div class="calc">
+
+			<div class="res_box">
+				<div class="hist" id="hist"></div>
+				<div class="res" id="res"></div>
+			</div>
+
+			<div class="btns">
+
+				<div class="grp">
+
+					<span class="btn emp"></span>
+					<span class="btn emp"></span>
+					<span class="btn emp"></span>
+
+					<span class="btn op" onclick="funcc()">C</span>
+
+				</div>
+
+				<!-- <br> -->
+
+				<div class="grp">
+				
+					<span class="btn num" onclick="func1()">1</span>
+					<span class="btn num" onclick="func2()">2</span>
+					<span class="btn num" onclick="func3()">3</span>
+
+					<span class="btn op" onclick="funcdiv()">/</span>
+
+				</div>
+
+				<!-- <br> -->
+
+				<div class="grp">
+
+					<span class="btn num" onclick="func4()">4</span>
+					<span class="btn num" onclick="func5()">5</span>
+					<span class="btn num" onclick="func6()">6</span>
+
+					<span class="btn op" onclick="funcmulti()">x</span>
+
+				</div>
+
+				<!-- <br> -->
+
+				<div class="grp">
+
+					<span class="btn num" onclick="func7()">7</span>
+					<span class="btn num" onclick="func8()">8</span>
+					<span class="btn num" onclick="func9()">9</span>
+
+					<span class="btn op" onclick="funcsubtract()">-</span>
+
+				</div>
+
+				<!-- <br> -->
+
+				<div class="grp">
+
+					<span class="btn num" onclick="func0()">0</span>
+					<span class="btn num" onclick="funcdot()">.</span>
+					<span class="btn op" onclick="funceq()">=</span>
+					<span class="btn op" onclick="funcadd()">+</span>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
